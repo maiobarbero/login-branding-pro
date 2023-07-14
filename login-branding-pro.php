@@ -9,14 +9,14 @@
  * Author URI: https://profiles.wordpress.org/maiobarbero/
  */
 
-use MWDCustomLoginPage\CustomLoginPage;
+use MWDLoginBrandingPro\LoginBrandingPro;
 
 if (!defined('ABSPATH')) exit;
 
 require_once(plugin_dir_path(__FILE__) . 'includes/CustomLoginPage.php');
 
-function custom_login_page_init()
+function login_branding_pro_page_init()
 {
-  $custom_login_page = new CustomLoginPage();
+  $custom_login_page = new LoginBrandingPro();
 }
-add_action('plugins_loaded', 'custom_login_page_init');
+add_action('plugins_loaded', 'login_branding_pro_page_init');

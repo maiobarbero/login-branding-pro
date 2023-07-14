@@ -1,8 +1,8 @@
 <?php
 
-namespace MWDCustomLoginPage;
+namespace MWDLoginBrandingPro;
 
-class CustomLoginPage
+class LoginBrandingPro
 {
   const DOMAIN = 'custom-login-page';
   public $color;
