@@ -1,6 +1,6 @@
 <div class="hashtags-page">
   <h1><?php _e('Custom Login Page', 'custom-login-page') ?></h1>
-  <div class="container">
+  <div>
     <div class="column about">
       <h3 class="title"><?php _e('About', 'custom-login-page') ?></h3>
       <p>
